@@ -66,7 +66,12 @@ class Song
     mp3_split = mp3_string.split(" - ")
     new_song.artist_name = mp3_string.split(" - ")[0]
     new_song.name = mp3_string.split(" - ")[1].split(".")[0]
+    self.all << new_song
     new_song
+  end
+  
+  def self.destroy_all
+    self.all.clear
   end
 
 end
