@@ -34,6 +34,7 @@ class Song
     if song.name == name 
       name 
     else new_by_name(name)
+  end
   
   end
 
