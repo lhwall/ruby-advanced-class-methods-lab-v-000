@@ -35,7 +35,7 @@ class Song
   end
 
   def self.alphabetical
-    alphabetical_array = @@all.sort_by do |song| song
+    alphabetical_array = @@all.sort
     end
     alphabetical_array
   end 
