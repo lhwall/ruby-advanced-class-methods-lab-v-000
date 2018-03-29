@@ -40,7 +40,7 @@ class Song
     alphabetical_array = []
     self.all.sort_by do |song| song
     end
-    #binding.pry
+    binding.pry
     alphabetical_array
   end 
 
