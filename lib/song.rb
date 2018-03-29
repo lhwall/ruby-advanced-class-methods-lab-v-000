@@ -60,6 +60,8 @@ class Song
     
     song_name_not_mp3 = mp3_split[1].split(".")
     new_song.name = song_name_not_mp3[0]
+    
+    binding.pry
   end
 
 end
