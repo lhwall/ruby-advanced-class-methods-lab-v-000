@@ -52,5 +52,3 @@ class Song
   end
 
 end
-
-Song.alphabetical
