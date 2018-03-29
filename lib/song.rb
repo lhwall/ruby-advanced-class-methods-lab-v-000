@@ -53,8 +53,8 @@ class Song
 
 end
 
-Song.create_by_name("Blank Space")
-Song.create_by_name("Hello")
-Song.create_by_name("Hotline Bling")
+#Song.create_by_name("Blank Space")
+#Song.create_by_name("Hello")
+#Song.create_by_name("Hotline Bling")
 
 Song.alphabetical
