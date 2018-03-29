@@ -41,7 +41,7 @@ class Song
   end
 
   def self.alphabetical
-    alphabetical_array = self.all.sort_by do |song| song
+    alphabetical_array = self.all.sort_by do |song| song.name
     end
     alphabetical_array
     #binding.pry
