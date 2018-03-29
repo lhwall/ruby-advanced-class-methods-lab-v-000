@@ -39,7 +39,7 @@ class Song
   def self.alphabetical
     alphabetical_array = self.all.sort_by do |song| song
     end
-    return alphabetical_array
+    alphabetical_array
     binding.pry
   end 
 
