@@ -58,7 +58,7 @@ class Song
     mp3_split = mp3_string.split(" - ")
     new_song.artist_name = mp3_string.split(" - ")[0]
     new_song.name = mp3_string.split(" - ")[1].split(".")[0]
-    #binding.pry
+    new_song
   end
 
 end
