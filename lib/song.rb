@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song
   attr_accessor :name, :artist_name
   @@all = []
@@ -38,6 +40,7 @@ class Song
     alphabetical_array = self.all.sort_by do |song| song
     end
     alphabetical_array
+    binding.pry
   end 
 
   def self.all
