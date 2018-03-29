@@ -31,9 +31,12 @@ class Song
     if find_by_name(name).class == Song
      find_by_name(name)
     else create_by_name(name)
+    end
   end
-  
-  end
+
+  def self.alphabetical
+    
+  end 
 
   def self.all
     @@all
