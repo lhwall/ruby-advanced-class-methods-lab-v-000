@@ -2,7 +2,7 @@ require 'pry'
 
 class Song
   attr_accessor :name, :artist_name
-  @@all = ["c", "a", "b"]
+  @@all = []
   
   def self.create
     new_song = self.new
@@ -40,7 +40,7 @@ class Song
     alphabetical_array = self.all.sort_by do |song| song
     end
     alphabetical_array
-    binding.pry
+    #binding.pry
   end 
 
   def self.all
