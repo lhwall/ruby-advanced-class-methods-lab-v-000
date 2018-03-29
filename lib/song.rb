@@ -36,7 +36,7 @@ class Song
 
   def self.alphabetical
     alphabetical_array = @@all.sort
-    end
+    
     alphabetical_array
   end 
 
