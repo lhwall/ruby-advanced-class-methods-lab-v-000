@@ -2,7 +2,7 @@ require 'pry'
 
 class Song
   attr_accessor :name, :artist_name
-  @@all = []
+  @@all = ["c", "a", "b"]
   
   def self.create
     new_song = self.new
@@ -52,3 +52,5 @@ class Song
   end
 
 end
+
+Song.alphabetical
